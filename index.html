@@ -90,11 +90,13 @@
                                 <div class="sections pl-4 display">
                                     <label class="d-block radio" data-toggle="tooltip" data-placement="right" title="<h6>Web Development Workshop</h6>
 Create amazing websites using the newest technologies and frameworks that powers the internet!">
-                                        <input type="radio" class="mr-1" name="it" value="web" required> <span>Web</span>
+                                        <input class="inner-checkbox" type="checkbox" class="mr-1" name="it[]" value="web" required> <span>Web</span>
+                                        <div class="output text-center" style='color:#2C693A;'></div>
                                     </label>
                                     <label class="d-block radio" data-toggle="tooltip" data-placement="right" title="<h6>Android</h6>
 Create your own application that can be your startup business.">
-                                        <input type="radio" class="mr-1" name="it" value="android" required> <span>Android</span>
+                                        <input class="inner-checkbox" type="checkbox" class="mr-1" name="it[]" value="android" required> <span>Android</span>
+                                        <div class="output text-center" style='color:#2C693A;'></div>
                                     </label>
                                 </div>
                             </div>
@@ -107,11 +109,13 @@ Create your own application that can be your startup business.">
                                 <div class="sections pl-4 display">
                                     <label class="d-block radio" data-toggle="tooltip" data-placement="right" title="<h5>Power Distribution Workshop</h5>
 Get to know power & distribution systems with load estimation & 2D modelling">
-                                        <input type="radio" class="mr-1" name="power" value="distribution"> <span>Power Distribution</span>
+                                        <input class="inner-checkbox" type="checkbox" class="mr-1" name="power[]" value="distribution"> <span>Power Distribution</span>
+                                        <div class="output text-center" style='color:#2C693A;'></div>
                                     </label>
                                     <label class="d-block radio" data-toggle="tooltip" data-placement="right" title="<h5>PLC and classic control workshop</h5>
 Never came into your mind to design your own motor ?">
-                                        <input type="radio" class="mr-1" name="power" value="plc"> <span>PLC and classic control</span>
+                                        <input class="inner-checkbox" type="checkbox" class="mr-1" name="power[]" value="plc"> <span>PLC and classic control</span>
+                                        <div class="output text-center" style='color:#2C693A;'></div>
                                     </label>
                                 </div>
                             </div>
@@ -123,13 +127,16 @@ Never came into your mind to design your own motor ?">
                                 </label>
                                 <div class="sections pl-4 display">
                                     <label class="d-block radio" data-toggle="tooltip" data-placement="right" title="<h5>Logic Design Workshop</h5>">
-                                        <input type="radio" class="mr-1" name="electronics" value="logic"> <span>Logic Design</span>
+                                        <input class="inner-checkbox" type="checkbox" class="mr-1" name="electronics[]" value="logic"> <span>Logic Design</span>
+                                        <div class="output text-center" style='color:#2C693A;'></div>
                                     </label>
                                     <label class="d-block radio" data-toggle="tooltip" data-placement="right" title="<h5>VHDL</h5>">
-                                        <input type="radio" class="mr-1" name="electronics" value="vhdl"> <span>VHDL</span>
+                                        <input class="inner-checkbox" type="checkbox" class="mr-1" name="electronics[]" value="vhdl"> <span>VHDL</span>
+                                        <div class="output text-center" style='color:#2C693A;'></div>
                                     </label>
                                     <label class="d-block radio" data-toggle="tooltip" data-placement="right" title="<h5>Cadence Workshop</h5>">
-                                        <input type="radio" class="mr-1" name="electronics" value="cadence"> <span>Cadence</span>
+                                        <input class="inner-checkbox" type="checkbox" class="mr-1" name="electronics[]" value="cadence"> <span>Cadence</span>
+                                        <div class="output text-center" style='color:#2C693A;'></div>
                                     </label>
                                 </div>
                             </div>
@@ -142,99 +149,18 @@ Never came into your mind to design your own motor ?">
                                 <div class="sections pl-4 display">
                                     <label class="d-block radio" data-toggle="tooltip" data-placement="right" title="<h5>Arduino Diploma Workshop</h5>
 This diploma is designed for giving a huge practical experience by using Arduino">
-                                        <input type="radio" class="mr-1" name="embedded" value="arduino"> <span>Arduino Diploma</span>
+                                        <input class="inner-checkbox" type="checkbox" class="mr-1" name="embedded[]" value="arduino"> <span>Arduino Diploma</span>
+                                        <div class="output text-center" style='color:#2C693A;'></div>
                                     </label>
                                     <label class="d-block radio" data-toggle="tooltip" data-placement="right" title="<h5>Embedded System Workshop</h5>
 This diploma is designed for giving a great knowledge of embedded system field from A to Z">
-                                        <input type="radio" class="mr-1" name="embedded" value="embedded"> <span>Embedded System</span>
+                                        <input class="inner-checkbox" type="checkbox" class="mr-1" name="embedded[]" value="embedded"> <span>Embedded System</span>
+                                        <div class="output text-center" style='color:#2C693A;'></div>
                                     </label>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-<!--                    <div class="form-group mt-3">-->
-<!--                        <h4 class="mb-5">Your Second Preference</h4>-->
-<!--&lt;!&ndash;                        <select class="preferred-workshop">&ndash;&gt;-->
-<!--&lt;!&ndash;                            <option selected>Choose</option>&ndash;&gt;-->
-<!--&lt;!&ndash;                            <option>Web</option>&ndash;&gt;-->
-<!--&lt;!&ndash;                            <option>Android</option>&ndash;&gt;-->
-<!--&lt;!&ndash;                            <option>Arduino</option>&ndash;&gt;-->
-<!--&lt;!&ndash;                            <option>Rasberry Pi</option>&ndash;&gt;-->
-<!--&lt;!&ndash;                            <option>Embedded</option>&ndash;&gt;-->
-<!--&lt;!&ndash;                        </select>&ndash;&gt;-->
-<!--                        <div class="row">-->
-<!--                            <div class=" col-sm-6 col-md-3 nopad text-center opt">-->
-<!--                                <label class="image-checkbox" data-toggle="tooltip" data-placement="top" title="<h5>Computer Directorate Workshop</h5>">-->
-<!--                                    <img class="img-fluid rounded" src="images/it.png"/>-->
-<!--                                    <input type="checkbox" name="image[]" value="" class="check-box"/>-->
-<!--                                    <i class="fa fa-check d-none"></i>-->
-<!--                                </label>-->
-<!--                                <div class="sections pl-4 display">-->
-<!--                                    <label class="d-block radio" data-toggle="tooltip" data-placement="right" title="<h6>Web Development Workshop</h6>-->
-<!--Create amazing websites using the newest technologies and frameworks that powers the internet!">-->
-<!--                                        <input type="radio" class="mr-1" name="it" value="web"> <span>Web</span>-->
-<!--                                    </label>-->
-<!--                                    <label class="d-block radio" data-toggle="tooltip" data-placement="right" title="<h6>Android</h6>-->
-<!--Create your own application that can be your startup business.">-->
-<!--                                        <input type="radio" class="mr-1" name="it" value="android"> <span>Android</span>-->
-<!--                                    </label>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="col-sm-6 col-md-3 nopad text-center opt" data-toggle="tooltip" data-placement="top" title="<h5>Power Directorate Workshops</h5>">-->
-<!--                                <label class="image-checkbox" >-->
-<!--                                    <img class="img-fluid rounded" src="images/power.png"/>-->
-<!--                                    <input type="checkbox" name="image[]" value="" class="check-box"/>-->
-<!--                                    <i class="fa fa-check d-none"></i>-->
-<!--                                </label>-->
-<!--                                <div class="sections pl-4 display">-->
-<!--                                    <label class="d-block radio" data-toggle="tooltip" data-placement="right" title="<h5>Power Distribution Workshop</h5>-->
-<!--Get to know power & distribution systems with load estimation & 2D modelling">-->
-<!--                                        <input type="radio" class="mr-1" name="power" value="distribution"> <span>Power Distribution</span>-->
-<!--                                    </label>-->
-<!--                                    <label class="d-block radio" data-toggle="tooltip" data-placement="right" title="<h5>PLC and classic control workshop</h5>-->
-<!--Never came into your mind to design your own motor ?">-->
-<!--                                        <input type="radio" class="mr-1" name="power" value="plc"> <span>PLC and classic control</span>-->
-<!--                                    </label>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class=" col-sm-6 col-md-3 nopad text-center opt" data-toggle="tooltip" data-placement="top" title="<h5>Electronics Directorate Workshops</h5>">-->
-<!--                                <label class="image-checkbox">-->
-<!--                                    <img class="img-fluid rounded" src="images/elec.jpg"/>-->
-<!--                                    <input type="checkbox" name="image[]" value="" class="check-box"/>-->
-<!--                                    <i class="fa fa-check d-none"></i>-->
-<!--                                </label>-->
-<!--                                <div class="sections pl-4 display">-->
-<!--                                    <label class="d-block radio" data-toggle="tooltip" data-placement="right" title="<h5>Logic Design Workshop</h5>">-->
-<!--                                        <input type="radio" class="mr-1" name="electronics" value="logic"> <span>Logic Design</span>-->
-<!--                                    </label>-->
-<!--                                    <label class="d-block radio" data-toggle="tooltip" data-placement="right" title="<h5>VHDL</h5>">-->
-<!--                                        <input type="radio" class="mr-1" name="electronics" value="vhdl"> <span>VHDL</span>-->
-<!--                                    </label>-->
-<!--                                    <label class="d-block radio" data-toggle="tooltip" data-placement="right" title="<h5>Cadence Workshop</h5>">-->
-<!--                                        <input type="radio" class="mr-1" name="electronics" value="cadence"> <span>Cadence</span>-->
-<!--                                    </label>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class=" col-sm-6 col-md-3 nopad text-center opt" data-toggle="tooltip" data-placement="top" title="<h5>Embedded Directorate Workshops</h5>">-->
-<!--                                <label class="image-checkbox">-->
-<!--                                    <img class="img-fluid rounded" src="images/arduino.png"/>-->
-<!--                                    <input type="checkbox" name="image[]" value="" class="check-box"/>-->
-<!--                                    <i class="fa fa-check d-none"></i>-->
-<!--                                </label>-->
-<!--                                <div class="sections pl-4 display">-->
-<!--                                    <label class="d-block radio" data-toggle="tooltip" data-placement="right" title="<h5>Arduino Diploma Workshop</h5>-->
-<!--This diploma is designed for giving a huge practical experience by using Arduino">-->
-<!--                                        <input type="radio" class="mr-1" name="embedded" value="arduino"> <span>Arduino Diploma</span>-->
-<!--                                    </label>-->
-<!--                                    <label class="d-block radio" data-toggle="tooltip" data-placement="right" title="<h5>Embedded System Workshop</h5>-->
-<!--This diploma is designed for giving a great knowledge of embedded system field from A to Z">-->
-<!--                                        <input type="radio" class="mr-1" name="embedded" value="embedded"> <span>Embedded System</span>-->
-<!--                                    </label>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
 
                     <div class="text-center">
                         <input type="submit" class="btn btn-success" name='submitImage' value="SUBMIT"/>
